@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { Check, Clipboard, Github, History, Keyboard, Mic, MicOff, RotateCcw, ShieldCheck, SlidersHorizontal, Sparkles, Square, Volume2 } from 'lucide-react';
+import { Check, Clipboard, History, Keyboard, Mic, MicOff, RotateCcw, ShieldCheck, SlidersHorizontal, Sparkles, Square, Star, Volume2 } from 'lucide-react';
 import { parseProtectedTerms, polishTranscript, type Change } from './domain';
 import './App.css';
 
@@ -53,7 +53,7 @@ function App() {
       </aside>
 
       <section className="workspace">
-        <header className="topbar"><div><p className="eyebrow">Murmurwell</p><h1>Say it rough. Send it clear.</h1></div><div className="top-actions"><span className="local-pill"><span /> Browser-local draft</span><a className="quiet-button" href="https://github.com/Satwik-P28/murmurwell" target="_blank" rel="noreferrer"><Github size={15} /> Star</a><button className="quiet-button" onClick={reset}><RotateCcw size={15} /> Reset</button></div></header>
+        <header className="topbar"><div><p className="eyebrow">Murmurwell</p><h1>Say it rough. Send it clear.</h1></div><div className="top-actions"><span className="local-pill"><span /> Browser-local draft</span><a className="quiet-button" href="https://github.com/Satwik-P28/murmurwell" target="_blank" rel="noreferrer"><Star size={15} /> Star</a><button className="quiet-button" onClick={reset}><RotateCcw size={15} /> Reset</button></div></header>
 
         <div className="workspace-grid">
           <section className="editor-card">
