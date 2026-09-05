@@ -1,5 +1,7 @@
 # Security policy
 
-Use GitHub security advisories for vulnerabilities. Do not include recordings, private transcripts, or protected-term lists in public issues.
+Security fixes are applied to the latest `main` build.
 
-The app stores draft text and terminology in browser local storage. Browser speech-recognition privacy depends on the browser and operating system in use.
+Please do not open a public issue for a suspected vulnerability. Use GitHub’s **Report a vulnerability** private advisory flow. Include impact, affected version, and reproduction steps. Expect an acknowledgement within seven days.
+
+Never include real audio samples you would not share publicly, keys, or personal data unless strictly necessary; redact and minimize first.
