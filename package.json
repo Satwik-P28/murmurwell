@@ -1,7 +1,26 @@
 {
   "name": "murmurwell",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
+  "description": "Privacy-conscious open-source dictation with transparent transcript cleanup and protected terms.",
+  "license": "MIT",
+  "homepage": "https://satwik-p28.github.io/murmurwell/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Satwik-P28/murmurwell.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Satwik-P28/murmurwell/issues"
+  },
+  "keywords": [
+    "dictation",
+    "speech-to-text",
+    "wispr-alternative",
+    "transcript-cleanup",
+    "privacy",
+    "local-first",
+    "open-source"
+  ],
   "type": "module",
   "scripts": {
     "dev": "vite",
